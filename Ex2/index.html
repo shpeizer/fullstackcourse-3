@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>מטלה 2</title>
+</head>
+<body>
+    <h1>
+        עבודת בית 2
+    </h1>
+    <form method="GET">
+        <label for="fname">שם מלא: </label><br>
+        <input type="text" name="fname" required>
+        </label><br>
+        <label for="email"> email: </label><br>
+        <input type="email" name="email" required>
+        </label><br>
+        <label for="id"> תעודת זהות: </label><br>
+        <input type="number" name="id" min="100000000" max="999999999" required>
+        </label><br>
+        <label for="gender"> מין: </label><br>
+        <select>
+            <option>זכר</option>
+            <option>נקבה</option>
+        </select>
+        </label><br>
+        <label for="message"> הודעה: </label><br>
+        <input type="text" name="message" required>
+        </label><br>
+        <button type="submit">שלח</button>
+    </form>
+</body>
+</html>

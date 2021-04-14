@@ -1,0 +1,16 @@
+h1{
+    color: lightseagreen;
+    font-size: 21px;
+}
+label{
+    color: blue;
+    font-weight: bold;
+}
+input{
+    border-color: red;
+}
+button{
+    background-color: black;
+    color: white;
+    height: 40px;
+}
