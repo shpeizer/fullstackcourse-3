@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+}
+
+header{
+    padding: 2em;
+    text-align: center;
+    background-color: rgb(74, 99, 151);
+}
+
+div#About_Me{
+    padding: 2%;
+    position: relative;
+    background-color: rgb(27, 49, 95);
+    color: white;
+}
+
+nav img{
+    height: 1em;
+    padding-left: 0.8%;
+}
+
+nav a{
+    color: white;
+}
+
+a:hover {
+    color: #532c53;
+}
+
+a:active {
+    color: blue;
+}
+
+div#About_Me p{
+    width: 60%;
+}
+
+p:nth-of-type(2), p:nth-of-type(3){
+    display: inline;
+    padding: 4px;
+    background-color: rgb(85, 110, 163);
+    border-radius: 10%;
+    margin-left: 0.5%;
+}
+
+#img1{
+    position: absolute;
+    width: 20%;
+    height: 80%;
+    left: 5%;
+    top: 10%;
+    border-radius: 10%;
+}
+
+div#My_Projects{
+    color: white;
+    background-color: rgb(74, 99, 151);
+    padding: 3%; 
+}
+
+div#My_Projects img{
+    border-radius: 10%;
+    width: 30%;
+}
+
+#project1, #project2{
+    padding: 5%;
+    display: flex;
+}
+
+#project1 div, #project2 div{
+    padding-right: 5%;
+}
+
+form{
+    text-align: center;
+}
+
+form{
+    background-color: rgb(48, 92, 128);
+    padding: 5px;
+    margin: 0;
+    border: 1px solid black;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: rgb(48, 92, 128);
+}
+
+::placeholder{
+    color: black;
+}
+
+#message{
+    background-color: white;
+    margin: 1em;
+    padding: 2em;
+    border: 1px solid black;
+}
+
+button{
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+footer{
+    background-color: rgb(41, 41, 94);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+    padding: 1.5%;
+    color: white;
+}
